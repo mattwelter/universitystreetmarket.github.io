@@ -1,0 +1,451 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(photos/usmbackground.jpg);
+	background-size: 900px;
+	color: white !important;
+	background-color: #222;
+	margin: -8px;
+}
+
+#wrapper {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.main {
+	padding-left: 164px;
+	padding-right: 130px;
+	width: 1180px !important;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row: 1;
+}
+
+.grid {
+	max-width: 1180px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+#desc {
+	margin-top: 180px;
+	grid-column: 1/5;
+	grid-row: 2;
+}
+
+#desctext {
+	padding-top: 50px;
+}
+
+#desc h2 {
+	text-align: center;
+	padding-top: 6px;
+	font-size: 38.4px;
+	font-family: 'PT Serif Caption';
+	padding-bottom: 20px;
+}
+
+#desc h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -4px;
+	color: #2BD9C3;
+}
+
+#desc p {
+	line-height: 35px;
+	margin-top: -35px !important;
+	padding-top: 6px;
+	padding-bottom: 18px;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+#ourmission {
+	text-align: center;
+	margin-top: 110px;
+	margin-left: -70px;
+	margin-bottom: 186px;
+	grid-row: 1;
+	grid-column: 1/5;
+	width: 1000px;
+}
+
+#ourmission h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -4px;
+	color: #E66596;
+	padding-bottom: 16px;
+}
+
+#applicationlink {
+	margin-top: -25px;
+	font-weight: 300;
+	font-size: 24px;
+	z-index: 500;
+	opacity: 0.8;
+	border: 3px solid white;
+	padding: 10px;
+}
+
+#applicationlink:hover {
+	color: #2BD9C3;
+	opacity: 1;
+}
+
+#ourmission p {
+	line-height: 55px;
+	margin-top: -35px !important;
+	padding-top: 6px;
+	padding-bottom: 18px;
+	font-size: 38.4px;
+	font-weight: 200;
+}
+
+#ourmission img {
+	margin-top: -70px;
+	padding-bottom: 35px;
+	height: 130px;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+#vendors {
+	margin-top: 235px;
+	margin-right: -150px;
+	text-align: right;
+	grid-column: 1/5;
+	grid-row: 3;
+}
+
+#vendors h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -4px;
+	color: #2BD9C3;
+}
+
+#vendors p {
+	line-height: 40px;
+	margin-top: -24px !important;
+	padding-top: 6px;
+	padding-bottom: 18px;
+	font-size: 28px;
+}
+
+
+
+
+
+
+
+
+#usmintro {
+	margin-top: 500px;
+	text-align: center;
+	grid-column: 1/5;
+	grid-row: 3;
+}
+
+#usmintro h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -4px;
+	color: #2BD9C3;
+}
+
+#usmintro p {
+	margin-top: -24px !important;
+	padding-top: 10px;
+	padding-bottom: 18px;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+/*
+#usmphotos {
+	margin-top: 140px;
+	margin-bottom: -60px;
+}
+
+#usmphotos div {
+	margin-left: 135px;
+}
+
+#usmphotos img {
+	display: inline-block;
+	width: 275px;
+	padding: 8px;
+}
+
+#usmphotos p {
+	font-family: 'Circular Std';
+	opacity: 1;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-bottom: -76px;
+	margin-top: 0px;
+	text-align: right;
+	margin-right: 128px;
+}
+*/
+
+.hero {
+	z-index: -1;
+	height: 100vh;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+NAIGATION START
+
+*/
+
+nav, a {
+	font-family: 'Circular Std';
+	font-size: 17.5px;
+	line-height: 28px;
+	letter-spacing: .2px;
+}
+
+nav {
+	text-align: left;
+	left: 0px;
+	top: -10px;
+	width: 100vw;
+	padding: 1em;
+	padding-left: 50px;
+	margin-top: 20px;
+	text-align: left;
+	position: absolute;
+	z-index: 1;
+}
+
+nav a {
+	display: inline;
+	margin: 1em;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+nav img {
+	margin-top: 4px;
+	height: 50px;
+	z-index: 2;
+}
+
+nav li {
+	display: inline;
+	margin-left: -10px;
+}
+
+nav a:link {
+	color: white;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	color: #2BD9C3;
+}
+
+nav ul {
+	margin-top: 16px;
+	position: absolute;
+	display: inline-block;
+	list-style-type: none;
+}
+
+
+
+
+/*
+
+FOOTER
+
+*/
+
+#footerbox {
+	background: #111;
+	margin-top: 120px;
+	padding: 30px;
+	height: 400px;
+	margin-left: -290px;
+	margin-right: -260px;
+	margin-bottom: -10px;
+}
+
+#footercontent {
+	margin-left: 300px;
+}
+
+#footerlogos {
+	padding-left: 150px;
+}
+
+#footerlogo {
+	margin-top: 20px;
+	width: 75px;
+	display: inline-block;
+}
+
+#cssifooterlogo {
+	margin-top: 20px;
+	padding-left: 40px;
+	width: 200px;
+	display: inline-block;
+}
+
+.footertext {
+	font-family: 'Circular Std';
+	display: inline-block;
+	list-style-type: none;
+	position: absolute;
+	padding-left: 500px;
+	margin-top: -85px;
+}
+
+.footertext h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 40px;
+	color: #777;
+	letter-spacing: 1px;
+}
+
+.footertext li {
+	margin-top: 16px;
+	font-size: 16px;
+}
+
+.footertext a {
+	text-decoration: none;
+	color: white;
+	transition: .1s;
+}
+
+.footertext a:visited {
+	color: white;
+}
+
+.footertext a:hover {
+	color: #2BD9C3;
+}
+
+#company {
+	margin-left: 40px;
+	z-index: 506;
+}
+
+#communities {
+	margin-left: 175px;
+	z-index: 505;
+}
+
+#social {
+	margin-left: 340px;
+	z-index: 504;
+}
+
+
+
+
+
+/*
+
+BODY CONTENT
+
+*/
+
+h2 {
+	font-family: 'Circular Std';
+	font-weight: 600;
+	font-size: 28px;
+	margin-top: -20px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 28px;
+}
+
+header p {
+	display: inline;
+	opacity: 0.6;
+	font-style: italic;
+}
+
+.main {
+	font-family: 'Circular Std';
+	font-size: 17.5px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	margin-top: -600px;
+}
+
+#front {
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
+	position: absolute;
+    padding: 0 20px;
+    top: 26%;
+    left: 0;
+    right: 0;
+}
+
+#front img {
+	height: 200px;
+	margin-left: -74px;
+}
+
+#amp {
+	font-family: Baskerville, "EB Garamond", serif;
+    font-style: italic;
+    font-size: 45px;
+}
+
+::selection {
+    background: yellow;
+}
